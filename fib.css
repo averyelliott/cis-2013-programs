@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #B7D8D6;
+    margin: 10px auto;
+    width: 750px;
+    padding: 5px 20px;
+    border: 5px solid #789E9E;
+}
+h1 {
+	color: #4D6466;
+	text-align: center;
+}
+
+p {
+    color: #4D6466;
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+section {
+    padding: 0 2em 1em;
+}
+
+label {
+	float: left;
+    width: 20em;
+    text-align: right;
+    padding-bottom: .5em;
+    color:#FE615A;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+fieldset {
+	text-align: center;
+}
+textarea {
+	resize: none;
+	font-size: 150%;
+}
+#fib {
+	color: red;
+	font-weight: bold;
+}
