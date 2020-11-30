@@ -15,7 +15,7 @@ var passwordCheckOld = function ()
     
    for (var count = 0; count<arrayBadPasswords.length; count++) //this loop makes sure all data in the array will be counted 
    {
-    if (stringPassword.length<8|| stringPassword === arrayBadPasswords[count]) // this checks the password to the list of bad passwords and makes sure its at least 8 characters long
+    if (stringPassword = arrayBadPasswords[count]||stringPassword.length <8) // this checks the password to the list of bad passwords and makes sure its at least 8 characters long
     {
         stringOutput = stringPassword + " is a bad password according to NIST.";
     } else {
